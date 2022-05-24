@@ -47,6 +47,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+- I started by installing react using create-react-app and then I used the tailwind css document to install it using the CLI from here: https://tailwindcss.com/docs/guides/create-react-app
+
+- I then added my content in my module exports.
+
+- From here I tested it by adding a 'Hello World' and executing NPM run start.
+
+- Then I created my repo for deployment, and also installed github pages as a dependency. I followed this process: https://github.com/gitname/react-gh-pages
+
+- I added my remote repo as origin, and then I published my master branch and switched the main branch to this on Github. I then deployed it to: https://nothile-moyo-git.github.io/social-media-dashboard/ by running NPM run deploy. 
+
+- I created a list of all the key features I would need. Toggle ability. Layout. Assets required, fonts etc...
+
+- I updated my module exports in my tailwing.config.js to get my custom styling.
+
+
+
 ### Built with
 
 - Semantic HTML5 markup
