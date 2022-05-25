@@ -2,7 +2,10 @@ module.exports = {
   darkMode: 'class',
   content: [ "./src/**/*.{js,jsx,ts,tsx}" ],
   theme: {
-    screens: { sm: '375px', xl: '1440px' },
+    screens: { 
+      sm: '375px', 
+      xl: '1440px' 
+    },
     fontFamily: {
       inter: ['Inter', 'Helvetica', 'sans-serif']
     },
@@ -26,9 +29,11 @@ module.exports = {
         'bright-red': 'hsl(356, 69%, 56%)',
         'facebook-blue': 'hsl(208, 92%, 53%)',
         'twitter-blue': 'hsl(203, 89%, 53%)',
-        'instagram-gradient': 'linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)',
+        'instagram-gradient': 'linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%))',
         'youtube-red': 'hsl(348, 97%, 39%)',
-        'dark-theme': 'linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)',
+        'dark-theme': 'linear-gradient( to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))',
+        'dark-theme-blue': 'hsl(210, 78%, 56%)', 
+        'dark-theme-green': 'hsl(146, 68%, 55%)',
         'light-theme': 'hsl(230, 22%, 74%)',
         'very-dark-blue': 'hsl(230, 17%, 14%)',
         'very-dark-blue-top': 'hsl(232, 19%, 15%)',
@@ -38,6 +43,10 @@ module.exports = {
         'very-pale-blue': 'hsl(225, 100%, 98%)',
         'light-grayish-blue': 'hsl(227, 47%, 96%)',
         'dark-grayish-blue': 'hsl(228, 12%, 44%)'
+      },
+      spacing: {
+        '15': '3.75rem',
+        '8.5': '2.125rem',
       },
     },
   },
