@@ -1,6 +1,7 @@
 import Header from './components/header/Header';
 import { useState } from 'react';
 import './App.css';
+import SocialCardsList from './components/cards/SocialCardsList';
 
 function App() {
 
@@ -10,9 +11,10 @@ function App() {
   const [themeColor, setThemeColor] = useState(defaultTheme);
 
   return (
-    <div className={`${themeColor} max-w-7xl m-auto p-4 font-inter`}>
+    <main className={`${themeColor} font-inter ${ themeColor === 'dark' ? 'bg-very-dark-blue' : 'bg-white'}`}>
       <Header themeColor={themeColor} setThemeColor={setThemeColor}/>
-    </div>
+      <SocialCardsList/>
+    </main>
   );
 }
 

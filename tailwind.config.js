@@ -14,7 +14,7 @@ module.exports = {
       'sm': '0.875rem',
       'md': '1.125rem',
       'lg': '1.25rem',
-      'xl': '3rem'
+      'xl': '1.5rem'
     },
     fontWeight: {
       'normal': '400',
@@ -30,6 +30,8 @@ module.exports = {
         'facebook-blue': 'hsl(208, 92%, 53%)',
         'twitter-blue': 'hsl(203, 89%, 53%)',
         'instagram-gradient': 'linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%))',
+        'instagram-yellow': 'hsl(37, 97%, 70%)',
+        'instagram-pink': 'hsl(329, 70%, 58%)',
         'youtube-red': 'hsl(348, 97%, 39%)',
         'dark-theme': 'linear-gradient( to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))',
         'dark-theme-blue': 'hsl(210, 78%, 56%)', 
