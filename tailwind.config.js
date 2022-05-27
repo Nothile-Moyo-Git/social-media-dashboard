@@ -3,7 +3,8 @@ module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}" ],
   theme: {
     screens: { 
-      sm: '375px', 
+      sm: '375px',
+      md: '480px', 
       xl: '1440px' 
     },
     fontFamily: {

@@ -6,7 +6,11 @@ html, body, main{
   height: 100%;
 }
 
-@media screen and (min-width:375px) {
+#root{
+  min-height: 775px;
+}
+
+@media screen and (min-width:480px) {
   #root{
     height: 100%;
   }

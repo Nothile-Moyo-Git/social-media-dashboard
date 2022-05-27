@@ -32,7 +32,7 @@ const Header = (props) => {
                     <label className="relative inline-block w-15 h-7 ml-2">
                         <input className="opacity-0 w-0 h-0" onChange={toggleDarkMode} checked={isChecked} type="checkbox"/>
                         <span className={`
-                        absolute cursor-pointer inset-0 rounded-[34px] ${ isChecked ? 'bg-gradient-to-r from-dark-theme-blue to-dark-theme-green' : 'bg-gradient-to-r from-dark-grayish-blue to-dark-grayish-blue' }
+                        min-w-[3.75rem] absolute cursor-pointer inset-0 rounded-[34px] ${ isChecked ? 'bg-gradient-to-r from-dark-theme-blue to-dark-theme-green' : 'bg-gradient-to-r from-dark-grayish-blue to-dark-grayish-blue' }
                         before:absolute before:content-[''] before:h-[20px] before:w-[20px] before:left-1 before:bottom-1 before:bg-white before:rounded-[50%]  ${ isChecked ? 'before:translate-x-0' : 'before:translate-x-8' } before:transition before:ease-linear before:duration-50
                         `}></span>
                     </label>

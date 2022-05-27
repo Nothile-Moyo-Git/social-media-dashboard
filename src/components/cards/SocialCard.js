@@ -7,20 +7,20 @@ const SocialCard = (props) => {
 
 
     return(
-        <li className="bg-light-grayish-blue dark:bg-dark-desaturated-blue basis-[100%] sm:basis-[calc(50%_-_1rem)] xl:basis-[calc(25%_-_1.5rem)] rounded-[6px] text-center relative bottom-[7rem] pb-6">
-            <div className={`h-1 mb-6 w-[100%] rounded-t-[14px] ${props.borderColor} `}></div>        
+        <li className="bg-light-grayish-blue dark:bg-dark-desaturated-blue basis-[100%] md:basis-[calc(50%_-_1rem)] md:max-w-[calc(50%_-_1rem)] xl:max-w-[calc(25%_-_1.5rem)] xl:basis-[calc(25%_-_1.5rem)] rounded-[6px] text-center relative bottom-[7rem] pb-6">
+            <div className={`h-1 mb-6 w-[100%] rounded-t-[14px] px-2 ${props.borderColor} `}></div>        
             <div>
                 { props.icon === 'facebook' && facebookIcon }
                 { props.icon === 'twitter' && twitterIcon }
                 { props.icon === 'instagram' && instagramIcon }
                 { props.icon === 'youtube' && youtubeIcon }
-                <span className="text-very-dark-blue dark:text-desaturated-blue text-sm"><b>{ props.alias }</b></span>
+                <span className="text-very-dark-blue dark:text-desaturated-blue text-sm px-2"><b>{ props.alias }</b></span>
             </div>
-            <p className="text-[4rem] text-very-dark-blue dark:text-white pt-4 font-bold">{props.followers}</p>
-            <p className="text-md bottom-[0.5rem] relative tracking-[0.3rem]">{props.text}</p>
-            <div className={`flex justify-center items-center gap-[10px]`}>
+            <p className="text-[4rem] text-very-dark-blue dark:text-white pt-4 font-bold break-words px-2">{props.followers}</p>
+            <p className="text-md bottom-[0.5rem] relative tracking-[0.3rem] break-words px-2">{props.text}</p>
+            <div className={`flex justify-center items-center gap-[10px] px-2`}>
                 {props.growth[0]}
-                <p className={props.growth[1] === 'increase' ? 'text-lime-green' : 'text-bright-red'}>
+                <p className={`px-2 ${props.growth[1] === 'increase' ? 'text-lime-green' : 'text-bright-red'}`}>
                     <span className="font-bold">{props.gains} Today</span>
                 </p>
             </div>
