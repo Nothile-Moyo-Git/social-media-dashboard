@@ -27,7 +27,7 @@ const Header = (props) => {
 
                 <hr className="sm:hidden my-4 border-dark-grayish-blue dark:border-desaturated-blue"/>
 
-                <div className="flex flex-row justify-between items-center">
+                <div className="flex flex-row justify-between items-center pb-5 sm:pb-0">
                     <strong className="dark:text-desaturated-blue text-dark-grayish-blue mr-2 text-lg">Dark Mode</strong>
                     <label className="relative inline-block w-15 h-7 ml-2">
                         <input className="opacity-0 w-0 h-0" onChange={toggleDarkMode} checked={isChecked} type="checkbox"/>
