@@ -22,6 +22,9 @@ module.exports = {
       'bold': '700'
     }, 
     extend: {
+      boxShadow: {
+        'custom': '0px 0px 12px 0px rgba(0,0,0,0.2)'
+      },
       borderRadius: {
         'standard': '14px'
       },
