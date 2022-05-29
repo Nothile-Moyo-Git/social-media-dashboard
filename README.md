@@ -18,4 +18,4 @@ You should be able to simply run "npm install" to install all necessary dependen
 The master branch is the main branch. The project-docs folder is for frontendmentor.
 This app is hosted on GitHub Pages and can be found here: https://nothile-moyo-git.github.io/social-media-dashboard/
 
-
+![image](https://user-images.githubusercontent.com/15236959/170864416-7746bce4-78c5-4285-a77b-5e01e41aa7b2.png)
