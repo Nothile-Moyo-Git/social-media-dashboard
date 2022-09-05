@@ -1,5 +1,10 @@
 # Nothile's Social Media Dashboard
-## Note: If you are reviewing this work for frontendmentor, please go to "project-docs/README.md" for further information
+
+This app is currently deployed to Github pages.
+
+View App: https://nothile-moyo-git.github.io/social-media-dashboard/
+
+### Note: If you are reviewing this work for frontendmentor, please go to "project-docs/README.md" for further information
 
 ## Overview:
 This app is a Social Media Dashboard with a dark/light toggle.
